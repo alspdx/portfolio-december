@@ -2,5 +2,47 @@ footer {
   width: 100%;
   position: fixed;
   bottom: 0;
-  color: white;
+  color: $footer-text-color;
+  height: $footer-height;
+}
+
+.footer-inner {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: $footer-padding;
+}
+
+.social-links {
+  display: flex;
+  align-items: center;
+  &:hover > li:nth-child(1n+2) {
+    bottom: 0;
+  }
+  li {
+    &:first-child {
+      font-size: $footer-share-icon-size;
+    }
+    &:nth-child(1n+2) {
+      font-size: $footer-social-icon-size;
+      padding: $social-icon-padding;
+
+      @include icon-position($footer-icon-position);
+    }
+    &:nth-child(2) {
+      @include icon-transition(calc(#{$icon-transition-speed} * 1));
+    }
+    &:nth-child(3) {
+      @include icon-transition(calc(#{$icon-transition-speed} * 2));
+    }
+    &:nth-child(4) {
+      @include icon-transition(calc(#{$icon-transition-speed} * 3));
+    }
+    &:nth-child(5) {
+      @include icon-transition(calc(#{$icon-transition-speed} * 4));
+    }
+    &:nth-child(6) {
+      @include icon-transition(calc(#{$icon-transition-speed} * 5));
+    }
+  }
 }
