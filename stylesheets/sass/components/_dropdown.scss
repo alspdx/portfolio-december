@@ -1,0 +1,28 @@
+.dropdown {
+  height: 0;
+  position: absolute;
+  top: $header-height;
+  right: 0;
+  overflow: hidden;
+  transition: height .3s ease-in-out;
+  background: $dropdown-background;
+  li {
+    text-align: center;
+    letter-spacing: 2px;
+    &:hover, &:focus {
+      cursor: pointer;
+      background: $dropdown-hover-background;
+    }
+    a {
+      border-top: $dropdown-lines;
+      display: inline-block;
+      padding: 20px;
+    }
+    &:first-child a {
+      border-top: none;
+    }
+  }
+}
+.nav:hover .dropdown, .nav:focus .dropdown {
+  height: $dropdown-height;
+}

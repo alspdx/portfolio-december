@@ -11,14 +11,30 @@ $breakpoints: (
   'xl':'#{$breakpoint-xl}'
 );
 
+// Colors
+$trans-white: rgba(255, 255, 255, 0.6);
+$white: rgba(255, 255, 255, 0.9);
+
+
 // Component Variables-----
 // // Header-----
 $header-height: 70px;
 $header-background: transparent;
+$header-text-light: $white;
 $navbar-padding: 0 15px;
 $logo-h1-font-size: 1.5em;
 $logo-h1-letter-spacing: 5px;
 $logo-span-font-size: 1em;
 $logo-span-letter-spacing: 8px;
 $bars-icon-size: 2em;
+
+// // Dropdown
 $dropdown-height: 170px;
+$dropdown-lines: 1px solid $trans-white;
+$dropdown-background: $trans-white;
+$dropdown-hover-background: $trans-white;
+
+// // Hero-----
+$hero-height: 100vh;
+
+// // Gallery-----

@@ -1,0 +1,9 @@
+.hero {
+  height: $hero-height;
+  width: 100%;
+
+  img {
+    @include responsive-img;
+    object-position: bottom;
+  }
+}

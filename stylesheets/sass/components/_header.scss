@@ -5,6 +5,8 @@ header {
   align-items: center;
   justify-content: center;
   background: $header-background;
+  position: fixed;
+  color: $header-text-light;
 }
 
 .navbar {
@@ -14,7 +16,6 @@ header {
   align-items: center;
   justify-content: space-between;
   padding: $navbar-padding;
-
 }
 
 .logo {
@@ -42,32 +43,5 @@ header {
 
   span {
     font-size: $bars-icon-size;
-  }
-  &:hover .dropdown, &:focus .dropdown {
-    height: $dropdown-height;
-  }
-}
-
-.dropdown {
-  height: 0;
-  position: absolute;
-  top: $header-height;
-  right: 0;
-  overflow: hidden;
-  transition: height .3s ease-in-out;
-  li {
-    text-align: center;
-    letter-spacing: 2px;
-    a {
-      border-top: 1px solid #ccc;
-      display: inline-block;
-      padding: 20px;
-      &:hover {
-        cursor: pointer;
-      }
-    }
-    &:first-child a {
-      border-top: none;
-    }
   }
 }
