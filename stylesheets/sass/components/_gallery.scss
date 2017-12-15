@@ -2,10 +2,22 @@
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  display: none;
+  // justify-content: ;
+  padding: $gallery-padding
 }
 
-.gallery-img {
+.gallery-image {
   flex-basis: 100%;
+  padding: $gallery-padding;
+  img {
+    @include responsive-img;
+  }
+
+  @include media(md) {
+    flex-basis: 50%;
+  }
+
+  @include media(lg) {
+    flex-basis: calc(100% / 3);
+  }
 }
