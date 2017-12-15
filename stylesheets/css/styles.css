@@ -52,9 +52,74 @@ table {
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
+a {
+  text-decoration: none;
+  color: inherit; }
+
 img {
   object-fit: cover;
   height: 100%;
   width: 100%; }
+
+li {
+  color: inherit;
+  text-decoration: none; }
+
+header {
+  height: 70px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent; }
+
+.navbar {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 15px; }
+
+.logo {
+  display: flex;
+  align-items: center;
+  flex-direction: column; }
+  .logo h1 {
+    font-size: 1.5em;
+    letter-spacing: 5px; }
+  .logo span {
+    font-size: 1em;
+    letter-spacing: 8px; }
+
+.nav {
+  height: 100%;
+  width: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end; }
+  .nav span {
+    font-size: 2em; }
+  .nav:hover .dropdown, .nav:focus .dropdown {
+    height: 170px; }
+
+.dropdown {
+  height: 0;
+  position: absolute;
+  top: 70px;
+  right: 0;
+  overflow: hidden;
+  transition: height .3s ease-in-out; }
+  .dropdown li {
+    text-align: center;
+    letter-spacing: 2px; }
+    .dropdown li a {
+      border-top: 1px solid #ccc;
+      display: inline-block;
+      padding: 20px; }
+      .dropdown li a:hover {
+        cursor: pointer; }
+    .dropdown li:first-child a {
+      border-top: none; }
 
 /*# sourceMappingURL=styles.css.map */

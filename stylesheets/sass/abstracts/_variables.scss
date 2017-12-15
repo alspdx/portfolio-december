@@ -1,0 +1,24 @@
+// Breakpoint Variables-----
+$breakpoint-sm: 'screen and (min-width:1px)';
+$breakpoint-md: 'screen and (min-width:768px)';
+$breakpoint-lg: 'screen and (min-width:1024px)';
+$breakpoint-xl: 'screen and (min-width:1440px)';
+
+$breakpoints: (
+  'sm':'#{$breakpoint-sm}',
+  'md':'#{$breakpoint-md}',
+  'lg':'#{$breakpoint-lg}',
+  'xl':'#{$breakpoint-xl}'
+);
+
+// Component Variables-----
+// // Header-----
+$header-height: 70px;
+$header-background: transparent;
+$navbar-padding: 0 15px;
+$logo-h1-font-size: 1.5em;
+$logo-h1-letter-spacing: 5px;
+$logo-span-font-size: 1em;
+$logo-span-letter-spacing: 8px;
+$bars-icon-size: 2em;
+$dropdown-height: 170px;
