@@ -3,7 +3,7 @@
   width: 100%;
   display: flex;
   justify-content: center;
-
+  transition: height .3s ease-in-out;
 
   img {
     @include responsive-img;

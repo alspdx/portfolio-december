@@ -120,13 +120,14 @@ header {
       border-top: none; }
 
 .nav:hover .dropdown, .nav:focus .dropdown {
-  height: 224px; }
+  height: 280px; }
 
 .hero {
   height: 100vh;
   width: 100%;
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  transition: height .3s ease-in-out; }
   .hero img {
     height: 100%;
     width: 100%;
