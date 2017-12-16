@@ -14,12 +14,14 @@ $breakpoints: (
 // Colors
 $trans-white: rgba(255, 255, 255, 0.6);
 $white: rgba(255, 255, 255, 0.9);
+$trans-black: rgba(0, 0, 0, 0.7);
 
 
 // Component Variables-----
+
 // // Header-----
 $header-height: 70px;
-$header-background: transparent;
+$header-background: $trans-black;
 $header-text-light: $white;
 $navbar-padding: 0 15px;
 $logo-h1-font-size: 1.5em;
@@ -29,10 +31,10 @@ $logo-span-letter-spacing: 8px;
 $bars-icon-size: 2em;
 
 // // Dropdown
-$dropdown-height: 170px;
-$dropdown-lines: 1px solid $trans-white;
-$dropdown-background: $trans-white;
+$dropdown-height: 224px;
+$dropdown-background: $trans-black;
 $dropdown-hover-background: $trans-white;
+$dropdown-link-padding: 20px;
 
 // // Hero-----
 $hero-height: 100vh;
@@ -43,10 +45,13 @@ $gallery-padding: 10px;
 
 // // Footer-----
 $footer-text-color: $white;
-$footer-padding: $navbar-padding;
-$footer-height: 50px;
+$footer-padding: 5px;
+$footer-height: 60px;
 $footer-share-icon-size: 2em;
 $footer-social-icon-size: 1.5em;
-$social-icon-padding: 0 0 0 20px;
-$footer-icon-position: -50px;
+$social-icon-margin: 5px;
+$footer-social-icon-background-size: 40px;
+$footer-share-icon-background-size: 50px;
+$footer-icon-position: -100vh;
+$footer-icon-background: $trans-black;
 $icon-transition-speed: 0.15s;

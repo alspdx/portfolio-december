@@ -14,15 +14,15 @@
       background: $dropdown-hover-background;
     }
     a {
-      border-top: $dropdown-lines;
       display: inline-block;
-      padding: 20px;
+      padding: $dropdown-link-padding;
     }
     &:first-child a {
       border-top: none;
     }
   }
 }
+
 .nav:hover .dropdown, .nav:focus .dropdown {
   height: $dropdown-height;
 }

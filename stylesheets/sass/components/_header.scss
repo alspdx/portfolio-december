@@ -7,6 +7,7 @@ header {
   background: $header-background;
   position: fixed;
   color: $header-text-light;
+  z-index: 99;
 }
 
 .navbar {

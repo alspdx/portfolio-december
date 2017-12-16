@@ -32,5 +32,5 @@
 }
 
 @mixin icon-transition($delay) {
-  transition: bottom $icon-transition-speed cubic-bezier(0,-0.03, 0, 2.08) $delay;
+  transition: bottom $icon-transition-speed cubic-bezier(0,-0.03, 0, 1.2) $delay;
 }

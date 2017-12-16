@@ -4,6 +4,7 @@ footer {
   bottom: 0;
   color: $footer-text-color;
   height: $footer-height;
+  z-index: 99;
 }
 
 .footer-inner {
@@ -20,12 +21,22 @@ footer {
     bottom: 0;
   }
   li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: $footer-icon-background;
     &:first-child {
       font-size: $footer-share-icon-size;
+      height: $footer-share-icon-background-size;
+      width: $footer-share-icon-background-size;
+      border-radius: 50%;
     }
     &:nth-child(1n+2) {
+      height: $footer-social-icon-background-size;
+      width: $footer-social-icon-background-size;
+      border-radius: 50%;
       font-size: $footer-social-icon-size;
-      padding: $social-icon-padding;
+      margin-left: $social-icon-margin;
 
       @include icon-position($footer-icon-position);
     }

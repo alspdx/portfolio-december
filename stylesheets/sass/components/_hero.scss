@@ -1,6 +1,9 @@
 .hero {
   height: $hero-height;
   width: 100%;
+  display: flex;
+  justify-content: center;
+
 
   img {
     @include responsive-img;
