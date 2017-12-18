@@ -6,7 +6,9 @@
 
 ## Portfolio Project Thoughts & Feedback:
 
-This project felt pretty smooth, although it took the whole day to complete. I started with the same basic 5-1 file structure that I used last week. I also too the liberty of making a personal photography portfolio since there wasn't a specific subject. (This isn't a completely curated selection of images, I just had these quickly available.) The dropdown menu is animated, as well as interactive by using JQuery to take the text from the list item in the dropdown, compare that to the CSS classes of the image cards, and add or remove CSS properties to toggle visibility. The social media buttons at the bottom don't link to anything, they were used to show animation. 
+This project felt pretty smooth, although it took the whole day to complete. I started with the same basic 5-1 file structure that I used last week. I also too the liberty of making a personal photography portfolio since there wasn't a specific subject. (This isn't a completely curated selection of images, I just had these quickly available.) The dropdown menu is animated, as well as interactive by using JQuery to take the text from the list item in the dropdown, compare that to the CSS classes of the image cards, and add or remove CSS properties to toggle visibility. The social media buttons at the bottom don't link to anything, they were used to show animation.
+
+I did not spend a whole lot of time in the planning phase which may not have been the best idea. I had a mental image of what I wanted to accomplish, but it probably would have been easier if I had wire-framed or planned a little further before starting. Next time.
 
 ## Setup
 
